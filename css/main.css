@@ -43,11 +43,12 @@ img {
     display: block;
   }
 
-  img {
+  .photo {
     width: 50%;
+    flex-wrap: wrap;
   }
 
-  .photo:first-child img {
+  .photo:first-child {
     width: 100%;
   }
 
@@ -59,11 +60,11 @@ img {
     display: none;
   }
 
-  img {
+  .photo {
     width: 33.3333%;
   }
 
-  .photo:first-child img {
+  .photo:first-child {
     width: 100%;
   }
 
@@ -75,11 +76,11 @@ img {
     display: block;
   }
 
-  img {
+  .photo {
     width: 33.3333%;
   }
 
-  .photo:first-child img {
+  .photo:first-child {
     width: 66.6666%;
   }
 
